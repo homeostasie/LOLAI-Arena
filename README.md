@@ -1,3 +1,7 @@
+Original repository on :
+https://github.com/yquemener/LOLAI-Arena
+
+
 This is a framework for making bots compete against each other in a number of games.
 
 The first game is a classic prisonner's dilema. 3 trivial bots are given in example.
@@ -10,3 +14,9 @@ Usage
 It will create a results.html that displays the results of the match.
 
 To create a bot, make a subdirectory in bots/ and follow the instructions in doc/protocol and add it in the list named 'bots' at the begining of arena.py
+
+Fork
+====
+
+I try to port the code from python 2 to python 3.
+
