@@ -1,2 +1,8 @@
 #!/bin/bash
-python2 -u bot.py
+foo=$(python --version)
+if [ "$foo"=="Python 3.*" ];
+then 
+	python2 -u bot.py
+else
+	python -u bot.py
+fi
